@@ -43,6 +43,9 @@ while True:
         if gissning2 != ord2:
             gissningar = gissningar - 1
             print(f"Fel! du har {gissningar} gissningar kvar")
+            if gissningar == 0:
+                print("Du blev hängd!")
+                break
         else:
             print("Du vann!")
             break
