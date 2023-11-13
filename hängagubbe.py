@@ -38,7 +38,6 @@ while True:
             print("Du blev hängd!")
             break
 
-
     if gissning == "ord":
         gissning2 = input("Vilket ord: ")
         if gissning2 != ord2:
