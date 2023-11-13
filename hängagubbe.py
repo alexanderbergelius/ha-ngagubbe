@@ -5,7 +5,7 @@
 
 
 import random
-gissningar = 14 #11
+gissningar = 11
 
 
 
@@ -33,7 +33,7 @@ while True:
                 if letter == gissning3:
                     print(f" Bokstaven finns i ordet och ligger på plats {idx+1} ")
 
-         #flytta upp till där gissat rätt
+         
         if gissningar == -1:
             print("Du blev hängd!")
             break
@@ -49,11 +49,22 @@ while True:
         else:
             print("Du vann!")
             break
-            #varför tar den bort 2 gissningar??
+            
+    if gissningar == 10:
+        print("—--------")
+    
+#
 
 #MILSTOLPE
 
 
+#____
+#| /     |
+#|      O
+#|     / | \
+#|     /   \
+#|
+#—--------
 
 
 
@@ -62,4 +73,3 @@ while True:
 
 
 
-#
