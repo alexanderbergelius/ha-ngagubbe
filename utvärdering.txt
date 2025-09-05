@@ -1,0 +1,13 @@
+
+1. Fungerar programmet?
+2. Är lösningen optimal? Godtagbar?
+3. Finns förbättringar?
+    3a Vilka?
+    3b Varför implementerades de inte?
+4.Hur är prestandan?
+
+
+1. programmet fungerar men är dock inte fullstädnigt. Tex saknar det grafik. 
+2. Lösningen är Godtagbar men anatgligen inte optimal.
+3. Det finns definitivt förbättringar. De jag tänekr på är främst de som påvärkar användaren. Mer specifikt så tänker jag att en grafisk implementering av understräck istället för bokstäverna skulle vara bra samt en grafisk representation av själva gubben. Anledningen till att detta inte implementerades var pga tidsbrist.
+4. Jag skulle vilja påstå att prestandan är helt okej. Den fungerar som jag har tänkt mig att den skulle fungera. Dock är den kanske inte jätte snabb ur ett användar perspektiv då man måste skriva in om man vill gissa på en bokstav/ord och sedan skriva in själva bokstaven eller ordet. Dessutom så skriver den inte ut vilka bokstäver man redan gissat på vilket jag tänker kan ha varit en fördekl. 
